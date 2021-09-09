@@ -1,6 +1,6 @@
 FROM java:8
 
-ADD target/JenkinsDemo.jar app.jar
+ADD target/employeeapp.jar app.jar
 
 ENTRYPOINT [ "java" , "-jar" , "app.jar" ]
 
